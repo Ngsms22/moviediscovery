@@ -231,6 +231,40 @@ header h1 {
   color: #f44336;
 }
 
+
+
+.see-more-button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.see-more-button:hover {
+  background-color: #0056b3;
+}
+/* Remove underline from movie title link, release date, and rating */
+.movie-card-link,
+.movie-card-link:hover,
+.movie-card-link:focus,
+.movie-card-link:active {
+  text-decoration: none;
+  color: inherit; /* keep text color consistent */
+}
+
+.movie-info p strong,
+.movie-details h2 {
+  text-decoration: none;
+}
+
+
+
+
 /* Responsive styles */
 @media (max-width: 768px) {
   .filters-container {
